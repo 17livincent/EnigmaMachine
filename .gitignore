@@ -1,0 +1,12 @@
+.vscode
+
+*.o
+*.exe
+
+# Executables
+test_enigmaI
+test_plugboard
+test_rotor
+test_reflector
+test_entrywheel
+run_enigmaI
