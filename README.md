@@ -17,7 +17,7 @@ This C++ project is an Enigma machine simulator.  It implements specifically the
 ## Prospective Features
 - Rotors with multiple notch positions
 - Other Enigma variants
-- CLI which to specify Enigma variant and settings
+- CLI includes Enigma settings
 
 ## Enigma 1 Wiring Details
 Wheel:  ABCDEFGHIJKLMNOPQRSTUVWXYZ  Turnover (right letter)
