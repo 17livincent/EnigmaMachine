@@ -14,24 +14,34 @@ This C++ project is an Enigma machine simulator.  It implements specifically the
  - Rotors
  - Reflector (aka UKW)
 
+## Prospective Features
+- Rotors with multiple notch positions
+- Other Enigma variants
+- CLI which to specify Enigma variant and settings
+
 ## Enigma 1 Wiring Details
 Wheel:  ABCDEFGHIJKLMNOPQRSTUVWXYZ  Turnover (right letter)
+
 ETW:    ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
 I:      EKMFLGDQVZNTOWYHXUSPAIBRCJ  Q
+
 II:     AJDKSIRUXBLHWTMCQGZNPYFVOE  E
+
 III:    BDFHJLCPRTXVZNYEIWGAKMUSQO  V
+
 IV:     ESOVPZJAYQUIRHXLNFTGKDCMWB  J
+
 V:      VZBRGITYUPSDNHLXAWMJQOFECK  Z
+
 UKW-A:  EJMZALYXVBWFCRQUONTSPIKHGD
+
 UKW-B:  YRUHQSLDPXNGOKMIEBFZCWVJAT
+
 UKW-C:  FVPJIAOYEDRZXWGCTKUQSBNMHL
 
+## References
 https://en.wikipedia.org/wiki/Enigma_machine
 https://en.wikipedia.org/wiki/Enigma_rotor_details
 https://www.cryptomuseum.com/crypto/enigma/i/index.htm
-http://users.telenet.be/d.rijmenants/en/enigmatech.htm
-
-TODOS
- - test_enigmaI.cpp
- - interact.h interact.cpp
-    - Process user input
+http://users.telenet.be/d.rijmenants/en/enigmatech.ht
