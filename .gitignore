@@ -10,3 +10,6 @@ test_rotor
 test_reflector
 test_entrywheel
 run_enigmaI
+
+# CMake stuff
+build

@@ -4,9 +4,9 @@ This C++ project is an Enigma machine simulator.  It implements specifically the
 
 ## Usage
 ### Enigma I
-1. Modify the machine's settings in ```run_enigmaI.cpp``` (no fancy CLI at the moment)
-2. Run ```make run_enigmaI```
-2. To encode/decode a message, use something like ```./run_enigmaI "MESSAGE IN ALL CAPS"```
+1. Modify the machine's settings in ```test/run_enigmaI.cpp``` (no fancy CLI at the moment)
+2. Run ```./pre_build.sh```
+2. To encode/decode a message, use something like ```./build/test/run_enigmaI "MESSAGE in lower or upper case"```
 
 ## Critical Components
  - Plugboard
